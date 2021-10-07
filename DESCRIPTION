@@ -1,0 +1,17 @@
+Package: CBFI
+Type: Package
+Title: Prediction case-based feature importance & interaction 
+Version: 1.0.0
+Author: Sejong Oh
+Maintainer: Sejong Oh <sejongoh@dankook.ac.kr>
+Description: This package supports prediction case-based feature importance function, feature interaction function, and feature interaction graph. 
+License: GPL
+Encoding: UTF-8
+Imports: igraph,
+            ggplot2,
+            tcltk,
+            foreach,
+            parallel,
+            doParallel
+LazyData: true
+RoxygenNote: 7.1.1
